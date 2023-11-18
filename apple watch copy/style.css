@@ -1,0 +1,334 @@
+:root {
+    --color-background: #C8DCE5;
+
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.side-bar {
+    min-width: 5%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.6rem 2rem;
+}
+
+.p-1040 {
+    display: none;
+}
+
+.main-bar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    border-radius: 2rem;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: none;
+    margin: 1rem;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 1rem;
+}
+
+.logo-image {
+    max-width: 50px;
+    max-height: 50px;
+    fill: none;
+    position: relative;
+    left: 1rem;
+    background: none;
+}
+
+.logo-nav {
+    display: none;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-button {
+    max-width: 88px;
+    max-height: 25px;
+    fill: none;
+    background: none;
+}
+
+.bg-color {
+    background: none;
+}
+
+.heading {
+    line-height: 0px;
+    margin: 2rem 0;
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 100vh;
+    max-width: 300px;
+    margin-top: 6rem;
+}
+
+.heading-paragraph {
+    display: flex;
+    font-weight: 400;
+    max-height: 100vh;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-top: 0;
+    width: 100%;
+    margin-bottom: 4rem;
+
+}
+
+.heading-h2 {
+    font-size: 3rem;
+}
+
+.heading-paragraph {
+    font-size: 3rem;
+    line-height: 5.4rem;
+}
+
+.color-white {
+    color: floralwhite;
+}
+
+.btn {
+    border: 3px solid rgba(255, 255, 255, 1);
+}
+
+.btn-body {
+    width: 12rem;
+    color: white;
+    display: flex;
+    font-size: 1.8rem;
+    height: 5rem;
+    border-radius: 10rem;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+    ;
+}
+
+.inside-color {
+    color: #bcd2de;
+}
+
+.header {
+    color: #fff;
+}
+
+.watch-logo {
+    max-width: 312px;
+    max-height: 277px;
+    background: none;
+    height: 29rem;
+    display: flex;
+    width: 35rem;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+
+
+.watch-svg {
+    background: none;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curser {
+    cursor: pointer;
+}
+
+.bottom {
+    display: none;
+}
+
+
+
+@media screen and (min-width:540px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .side-bar {
+        min-width: 5%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .p-1040 {
+        display: block;
+    }
+
+    .nav-menu {
+        top: 2rem;
+        position: relative;
+    }
+
+    .main-bar {
+        min-height: 100vh;
+        border-radius: 1rem;
+        min-width: 95%;
+    }
+
+    .heading-h2 {
+        font-weight: 700;
+        height: 2rem;
+    }
+
+    .heading-paragraph {
+        font-weight: 400;
+        margin-top: 5rem;
+    }
+
+    .heading-h2,
+    .heading-paragraph {
+        font-size: 5rem;
+        line-height: 6.4rem;
+    }
+
+    .body {
+        display: flex;
+    }
+
+    .heading-paragraph {
+        margin-top: 4rem;
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-top: 1rem;
+    }
+
+
+    .logo-search {
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+
+    .main {
+        margin-top: 8rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .btn-body {
+        width: 16rem;
+    }
+
+    .watch {
+        height: 29rem;
+        display: flex;
+        width: 35rem;
+        justify-content: center;
+        align-items: center;
+        background: none;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .pageindicator {
+        position: relative;
+        right: 7rem;
+    }
+
+    .watch-type {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+    .margin {
+        margin-right: 1rem;
+    }
+
+    .p-540 {
+        display: none;
+    }
+}
+
+@media screen and (min-width:540px) and (max-width:835px) {
+
+    .heading-h2 {
+        height: 8rem;
+    }
+}
+
+@media screen and (min-width:540px) and (max-width:768px) {
+    .sub-nav {
+        margin: 0 2rem;
+    }
+
+    .logo-nav {
+        font-size: 3rem;
+        display: flex;
+        color: rgba(255, 255, 255, 1);
+    }
+
+}
+
+@media screen and (min-width:769px) {
+    .logo-nav {
+        font-size: 5rem;
+        color: rgba(255, 255, 255, 1);
+        display: flex;
+    }
+
+    .sub-nav {
+        margin: 0 3rem;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (min-width:540px) {
+    .header {
+        margin-left: 1.5rem;
+    }
+}
